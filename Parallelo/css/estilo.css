@@ -1,0 +1,39 @@
+/* Define o estilo da lista de navegação */
+nav ul {
+    display: flex; /* Utiliza Flexbox para alinhar os itens */
+    flex-direction: row; /* Alinha os itens em uma linha horizontal */
+    margin: 0; /* Remove a margem padrão da lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+}
+
+/* Estilo para os itens da lista de navegação */
+nav ul li {
+    list-style: none; /* Remove os marcadores de lista (bolinhas, números, etc.) */
+    height: 125px; /* Define a altura dos itens do menu */
+    padding: 0 25px 0 0; /* Adiciona preenchimento à direita dos itens */
+}
+
+/* Estilo ao passar o mouse sobre os itens do menu */
+nav ul li:hover {
+    background: #444444; /* Muda o fundo do item para cinza escuro ao passar o mouse */
+}
+
+/* Estilo para a barra de navegação */
+nav {
+    height: 125px; /* Define a altura da barra de navegação */
+    max-width: 1480px; /* Define a largura máxima da barra */
+    min-width: 1080px; /* Define a largura mínima da barra */
+    background-color: black; /* Define a cor de fundo da barra como preta */
+}
+
+/* Estilo para o logotipo dentro da barra de navegação */
+nav .logo img {
+    height: 75px; /* Define a altura da imagem do logotipo */
+    margin: 25px; /* Adiciona uma margem em torno da imagem do logotipo */
+    float: left; /* Posiciona o logotipo à esquerda na barra de navegação */
+}
+
+/* Estilo para o menu principal dentro da barra de navegação */
+nav #mainMenu {
+    float: right; /* Posiciona o menu principal à direita da barra de navegação */
+}
